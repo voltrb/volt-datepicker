@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'volt-fields', '~> 0.1.2'
 
-  spec.add_development_dependency "volt", "~> 0.9.4.0"
   spec.add_development_dependency 'rspec', '~> 3.2.0'
   spec.add_development_dependency "rake"
 end
