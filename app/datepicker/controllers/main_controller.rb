@@ -33,7 +33,9 @@ module Datepicker
     end
 
     def before_index_remove
-      `picker.destroy()`
+      if `self.picker`
+        `self.picker.destroy()`
+      end
 
       # remove reference to dom node
       @field = nil
